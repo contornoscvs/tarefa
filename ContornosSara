@@ -1,0 +1,24 @@
+import java.util.HashSet;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author sarad
+ */
+public class ContornosSara {
+    public static void main(String[] args){
+        HashSet<String> conjuntoVehiculos= new HashSet<>();
+        conjuntoVehiculos.add("moto");
+        conjuntoVehiculos.add("coche");
+        conjuntoVehiculos.add("bici");
+        conjuntoVehiculos.add("moto");
+        conjuntoVehiculos.add("bici");
+        
+        for(String s: conjuntoVehiculos)
+            System.out.println(s+" ");
+    }
+}
